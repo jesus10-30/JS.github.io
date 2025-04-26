@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - JS Repuestos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      display: flex;
+      flex-direction: column; /* Coloca los elementos en columna */
+      align-items: center; /* Centra los elementos */
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      display: flex;
+      justify-content: center; /* Centra los enlaces de navegación */
+      margin-top: 10px; /* Espacio entre el título y los enlaces */
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+    .productos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .producto {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: auto;
+      max-height: 200px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+    .producto h3 {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    .producto p {
+      color: #555;
+    }
+    .producto .precio {
+      font-weight: bold;
+      color: #007bff;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="banner-container">
+        <img src="imagenes/JS.png.png" alt="Logo JS Repuestos" class="banner" style="width: 200px;">
+    </a>
+    <h1>JS Repuestos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="Servicios.html">Servicios</a>
+    </nav>
+  </header>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos-grid">
+      <div class="producto">
+        <img src="imagenes/s.png" alt="Disco SSD 240GB">
+        <h3>Disco SSD 240GB</h3>
+        <p>Velocidad y rendimiento a buen precio, ideal para mejorar tu PC.</p>
+        <p class="precio">Q45.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/u.png" alt="Memoria RAM 8GB DDR4">
+        <h3>Memoria RAM 8GB DDR4</h3>
+        <p>Mejora el rendimiento de tu computadora con esta memoria de alta velocidad.</p>
+        <p class="precio">Q40.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/x.png" alt="Fuente de Poder 500W">
+        <h3>Fuente de Poder 500W</h3>
+        <p>Estabilidad y protección para tu PC, compatible con todos los sistemas.</p>
+        <p class="precio">Q55.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/e.png" alt="Monitor 24 pulgadas">
+        <h3>Monitor 24 pulgadas</h3>
+        <p>Alta resolución y calidad de imagen para una experiencia de visualización perfecta.</p>
+        <p class="precio">Q150.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/r.png" alt="Teclado Mecánico">
+        <h3>Teclado Mecánico</h3>
+        <p>Teclado ergonómico y preciso, ideal para jugadores y programadores.</p>
+        <p class="precio">Q70.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/t.png" alt="Mouse Gaming">
+        <h3>Mouse Gaming</h3>
+        <p>Alta precisión, ideal para gaming con diseño ergonómico.</p>
+        <p class="precio">Q35.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/b.png" alt="Altavoces para PC">
+        <h3>Altavoces para PC</h3>
+        <p>Sonido nítido y claro, perfecto para tu configuración de entretenimiento.</p>
+        <p class="precio">Q30.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/g.png" alt="Disco Externo 1TB">
+        <h3>Disco Externo 1TB</h3>
+        <p>Almacenamiento extra para todos tus archivos importantes.</p>
+        <p class="precio">Q60.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/HH.png" alt="Laptop 15 pulgadas">
+        <h3>Laptop 15 pulgadas</h3>
+        <p>Computadora portátil de alto rendimiento para trabajos y entretenimiento.</p>
+        <p class="precio">Q500.00</p>
+      </div>
+      <div class="producto">
+        <img src="imagenes/ss.png" alt="UPS 600VA">
+        <h3>UPS 600VA</h3>
+        <p>Sistema de alimentación ininterrumpida para proteger tu equipo de cortes de energía.</p>
+        <p class="precio">Q85.00</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JS Repuestos. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

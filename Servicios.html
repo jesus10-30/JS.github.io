@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios - JS Repuestos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .servicios-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .servicio {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+    .servicio img {
+      width: 100%;
+      height: auto;
+      max-height: 200px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+    .servicio h3 {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    .servicio p {
+      color: #555;
+    }
+    .servicio .precio {
+      font-weight: bold;
+      color: #007bff;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="banner-container">
+      <img src="imagenes/JS.png.png" alt="Logo JS Repuestos" class="banner" style="width: 200px;">
+    </a>
+    <h1>JS Repuestos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="servicios.html">Servicios</a>
+    </nav>
+  </header>
+
+  <section id="servicios">
+    <h2>Servicios que ofrecemos</h2>
+    <p>En JS Repuestos ofrecemos una variedad de servicios para mantener y optimizar el rendimiento de tus equipos tecnológicos.</p>
+    <div class="servicios-grid">
+      <!-- Servicio 1: Mantenimiento de máquinas -->
+      <div class="servicio">
+        <img src="imagenes/mm.png" alt="Mantenimiento a máquinas">
+        <h3>Mantenimiento de Máquinas</h3>
+        <p>Revisamos y optimizamos el funcionamiento de tu computadora para garantizar su máximo rendimiento.</p>
+        <p class="precio">Q30.00</p>
+      </div>
+      <!-- Servicio 2: Limpieza de equipo -->
+      <div class="servicio">
+        <img src="imagenes/st.png" alt="Limpieza de equipo">
+        <h3>Limpieza de Equipos</h3>
+        <p>Eliminamos el polvo y suciedad de tu computadora, mejorando la ventilación y prolongando su vida útil.</p>
+        <p class="precio">Q25.00</p>
+      </div>
+      <!-- Servicio 3: Reparaciones -->
+      <div class="servicio">
+        <img src="imagenes/er.png" alt="Reparaciones">
+        <h3>Reparaciones de Equipos</h3>
+        <p>Reparamos tu computadora para solucionar fallos de hardware o software, dejándola como nueva.</p>
+        <p class="precio"> Q50.00</p>
+      </div>
+      <!-- Servicio 4: Instalaciones -->
+      <div class="servicio">
+        <img src="imagenes/2.png" alt="Instalaciones de software">
+        <h3>Instalaciones de Software</h3>
+        <p>Instalamos sistemas operativos, programas y software especializado según tus necesidades.</p>
+        <p class="precio">Q40.00</p>
+      </div>
+      <!-- Servicio 5: Formateo -->
+      <div class="servicio">
+        <img src="imagenes/33.png" alt="Formateo de computadora">
+        <h3>Formateo de Computadoras</h3>
+        <p>Realizamos formateos completos y reinstalación del sistema operativo para optimizar el rendimiento.</p>
+        <p class="precio">Q35.00</p>
+      </div>
+      <!-- Servicio 6: Actualización de hardware -->
+      <div class="servicio">
+        <img src="imagenes/44.png" alt="Actualización de hardware">
+        <h3>Actualización de Hardware</h3>
+        <p>Mejoramos tu equipo reemplazando componentes como RAM, disco duro, tarjeta gráfica, entre otros.</p>
+        <p class="precio">Q75.00</p>
+      </div>
+      <!-- Servicio 7: Recuperación de datos -->
+      <div class="servicio">
+        <img src="imagenes/qw.png" alt="Recuperación de datos">
+        <h3>Recuperación de Datos</h3>
+        <p>Recuperamos datos perdidos de discos duros, USB y otros dispositivos de almacenamiento.</p>
+        <p class="precio">Q80.00</p>
+      </div>
+      <!-- Servicio 8: Asesoría técnica -->
+      <div class="servicio">
+        <img src="imagenes/dd.png" alt="Asesoría técnica">
+        <h3>Asesoría Técnica Personalizada</h3>
+        <p>Brindamos asesoría personalizada para elegir los mejores equipos y soluciones tecnológicas.</p>
+        <p class="precio">Q20.00</p>
+      </div>
+      <!-- Servicio 9: Optimización de sistema -->
+      <div class="servicio">
+        <img src="imagenes/pp.png" alt="Optimización de sistema">
+        <h3>Optimización de Sistema</h3>
+        <p>Mejoramos el rendimiento de tu equipo limpiando archivos innecesarios y optimizando el sistema.</p>
+        <p class="precio">Q30.00</p>
+      </div>
+      <!-- Servicio 10: Instalación de redes -->
+      <div class="servicio">
+        <img src="imagenes/oo.png" alt="Instalación de redes">
+        <h3>Instalación de Redes</h3>
+        <p>Realizamos la instalación de redes LAN y Wi-Fi para garantizar una conexión rápida y segura.</p>
+        <p class="precio">Q60.00</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JS Repuestos. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

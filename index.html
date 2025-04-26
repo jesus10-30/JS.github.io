@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Repuestos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* Logo alineado a la izquierda */
+    }
+    nav {
+      display: flex;
+      justify-content: center; /* Centrado de los botones */
+      flex: 1; /* Se toma el espacio disponible */
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+    .banner {
+      width: 155px; /* Tamaño adecuado para el logo */
+      height: auto;
+    }
+    .banner:hover {
+      opacity: 0.8;
+    }
+    .banner-container {
+      display: inline-block;
+    }
+    section {
+      padding: 40px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Estilo para la sección "Bienvenidos" */
+    .welcome-section {
+      background-color: #007BFF; /* Fondo más vivo */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* Alinear contenido a la izquierda */
+      padding: 50px 10;
+    }
+    .welcome-section h2 {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-left: 480px; /* Espaciado entre el logo y el texto */
+    }
+
+    /* Alineación de la sección Acerca de Nosotros */
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      background-color: #F1F1F1; /* Fondo más suave para la sección */
+      color: black;
+    }
+    .about-text {
+      max-width: 600px;
+      font-size: 1.3em;
+      margin-right: 20px;
+    }
+    .about-image {
+      width: 500px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 5px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Estilo para los botones debajo de la bienvenida */
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .nav-buttons a {
+      margin: 0 15px;
+      padding: 10px 20px;
+      background-color: #003366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sección Bienvenidos en el espacio azul con el logo a la izquierda -->
+  <section class="welcome-section">
+    <a href="index.html" class="banner-container">
+      <img src="imagenes/JS.png.png" alt="Logo JS Repuestos" class="banner">
+    </a>
+    <h2>Bienvenidos a JS Repuestos y Servicios</h2>
+  </section>
+
+  <!-- Sección con botones de navegación debajo de la bienvenida -->
+  <section class="nav-buttons">
+    <a href="#inicio">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="servicios.html">Servicios</a>
+  </section>
+
+  
+
+  <!-- Sección Acerca de Nosotros -->
+  <section class="about-section">
+    <div class="about-text">
+      <h2>Acerca de Nosotros</h2>
+      <p>JS Repuestos y Servicios te da la bienvenida a su tienda en línea, donde podrás encontrar una amplia variedad de productos, precios competitivos y videos instructivos para el mantenimiento de tus dispositivos. Nuestro asistente de chat estará disponible para responder tus consultas, mostrando nuestro enfoque en la tecnología.</p>
+    </div>
+    <section style="background-color: #f9f9f9; padding: 40px; text-align: center;">
+      <h2 style="color: #003366;">¿Qué ofrecemos?</h2>
+      <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; margin-top: 30px;">
+        <div style="width: 200px;">
+          <h3>Reparación de Equipos</h3>
+          <p>Mantenimiento y reparación de computadoras y laptops.</p>
+        </div>
+        <div style="width: 200px;">
+          <h3>Venta de Repuestos</h3>
+          <p>Componentes y accesorios a precios accesibles.</p>
+        </div>
+        <div style="width: 200px;">
+          <h3>Asesoría Técnica</h3>
+          <p>Te ayudamos a tomar decisiones para mejorar tu equipo.</p>
+        </div>
+      </div>
+    </section>
+    
+    <img src="imagenes/ww.png.png" alt="Imagen de fondo JS Repuestos" class="about-image">
+  </section>
+  <!-- Sección de contacto con redes sociales -->
+<section style="background-color: #003366; color: white; padding: 30px; text-align: center;">
+  <h2 style="margin-bottom: 20px;">Contáctanos</h2>
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; font-size: 1.2em;">
+    <a href="mailto:jsrepuestos@gmail.com" style="color: white; text-decoration: none;">
+      📧 Gmail: jsrepuestos@gmail.com
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61575549907135" target="_blank" style="color: white; text-decoration: none;">
+      📘 Facebook: JS Venta de repuestos y Servicios
+    </a>
+    <a href="https://www.instagram.com/jsrepuestosservicio/" target="_blank" style="color: white; text-decoration: none;">
+      📸 Instagram: jsrepuestosservicio
+    </a>
+    <a href="https://www.tiktok.com/@jsrepuestos_servicios" target="_blank" style="color: white; text-decoration: none;">
+      🎵 TikTok: jsrepuestos_servicios
+    </a>
+    <a href="https://wa.me/50252568628" target="_blank" style="color: white; text-decoration: none;">
+      💬 WhatsApp: 5256-8628
+    </a>
+    <a href="https://x.com/jsrepuestos" target="_blank" style="color: white; text-decoration: none;">
+      🐦 X: https://x.com/SrepuestosJ
+    </a>
+  </div>
+</section>
+
+  
+
+  <footer>
+    <p>&copy; 2025 JS Repuestos. Todos los derechos reservados.</p>
+  </footer>
+
+  
+
+</body>
+</html>
